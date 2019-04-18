@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Registration form</title>
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <style type="text/css">
+    h2 {
+      color: red;
+    }
+  
+  </style>
+
+
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+  <form>
+    <h2>Registration Form</h2>
+
+    <label for="first name">First Name:</label>
+    <input name="first name" id="name" type ="text" placeholder="John" required="true">
+
+    <label for="last name">Last Name:</label>
+    <input name="last name" id="last name" type ="text" placeholder="Smith" required="true">
+
+  </form>
+
+  <form>
+    <label for="male"> Male:</label>
+    <input name="gender"id = "male" type="radio" value="m">
+    
+    <label for="female"> Female:</label>
+    <input name="gender" id="female" type="radio" value="f">
+    
+    <label for="female"> Other:</label>
+    <input name="gender" id="female" type="radio" value="o">
+  </form>
+
+  <form>
+        <label for="email"> Email::</label>
+        <input name="mail"id = "email" type="email">
+        
+        <label for="password"> Password:</label>
+        <input name="pass" id="passwrod" type="password">
+
+  </form>
+
+  <form>
+        <label for="Birthday">Birthday:</label>
+        <input name="Birthday "id="Birthday "type="date" name="bday" min="1900-01-02">
+ </form>
+ <p>I agree to the terms and conditions <input type="checkbox" required="true"> </p>
+ <input type="submit">
+
+</body>
+</html>
