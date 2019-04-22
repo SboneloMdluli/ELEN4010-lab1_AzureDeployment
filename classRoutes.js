@@ -1,3 +1,4 @@
+let express = require('express')
 let router = express.Router()
 let classList = [] //our class list array
 router.get('/', function (req, res) {
